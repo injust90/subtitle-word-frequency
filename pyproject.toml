@@ -1,0 +1,21 @@
+[project]
+name = "subtitle-word-frequency"
+version = "0.1.0"
+description = "Compute word frequencies from SRT/ASS subtitle files."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Justin Chou" }]
+keywords = ["subtitles", "srt", "ass", "word-frequency"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+subtitle-word-frequency = "word_frequency:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

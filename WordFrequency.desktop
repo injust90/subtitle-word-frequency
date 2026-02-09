@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Word Frequency
+Comment=Compute word frequencies from subtitle files
+Exec=/usr/bin/env python3 /path/to/word_frequency.py
+Terminal=false
+Icon=/path/to/icon_001.png
+Categories=Utility;
